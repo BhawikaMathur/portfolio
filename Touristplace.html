@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist places</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+
+
+
+    <link rel="stylesheet" href="styling.css">
+
+    <style>
+        
+        body {
+            background: url(Image/bg3.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            /* backdrop-filter: blur(2px); */
+        }
+
+        .tour-place {
+            width: 80%;
+            /* border: 1px solid white; */
+            margin: 40px auto;
+        }
+
+        .top-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .top-container h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #f5d7a4;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-family: 'Playfair Display', serif;
+        }
+
+
+        .top-container p {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #f5f5f5;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .places-heading {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #f5d7a4;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .places {
+            display: flex;
+            margin: 60px 0;
+            /* transition: 0.5s; */
+            /* background: rgba(45, 25, 25, 0.85); */
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .places:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        /* .places:hover {
+            transform: scale(1.1);
+        } */
+
+        .places img {
+            /* border-radius: 15px; */
+            width: 450px;
+            height: 300px;
+            padding: 0 10px;
+             transition: 0.5s;
+            /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); */
+        }
+
+        .places img:hover {
+            transform: scale(1.1);
+        }
+
+        .place-text {
+            padding: 20px;
+            /* margin:0 20px; */
+            /* backdrop-filter: blur(2px); */
+        }
+
+
+        .place-text h2 {
+            font-size: 24px;
+            color: #ffcc33;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ffcc33;
+        }
+
+        .place-text p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #f5f5f5;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .footer {
+            background: rgba(45, 25, 25, 0.7);
+            color: #f5d7a4;
+            /* font-family: 'Georgia', serif; */
+            padding: 40px 10px;
+            border-top: 2px solid #ffc107;
+            margin-top: 100px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-content h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #ffc107;
+        }
+
+        .footer-content p,
+        .footer-content li,
+        .footer-content a {
+            font-size: 15px;
+            line-height: 1.4;
+            color: #f1e9d2;
+            text-decoration: none;
+        }
+
+        .footer-content p {
+            max-width: 300px;
+            /* border: 1px solid white; */
+        }
+
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-content ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-content ul li a:hover {
+            color: #ffc107;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #f5d7a4;
+            padding-top: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #d6c18a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo"><img src="Image/Shekhawati Logo.png" alt=""></div>
+
+        <div class="nav-menu">
+
+            <ul>
+
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Touristplace.html" class="active">Tourist Places</a></li>
+                <li><a href="spiritual.html">Spiritual Places</a></li>
+                <li><a href="culture.html">Culture & Heritage</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="aboutcontact.html">About/Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="tour-place">
+
+        <div class="top-container">
+
+            <h1>Tourist Places in Shekhawati</h1>
+
+            <p>Shekhawati, often called the "Open Air Art Gallery" of Rajasthan, comprises the Sikar, Jhunjhunu, and
+                Churu districts, renowned for their immense concentration of 18th-20th century painted havelis. Key
+                tourist spots include Mandawa’s fort and havelis, Nawalgarh’s Poddar Haveli Museum, Fatehpur’s frescos,
+                and Jhunjhunu's Khetri Mahal. The region boasts intricate mural paintings, traditional stepwells, and
+                stunning frescoes, offering a unique, artistic, and historical travel experience. </p>
+
+        </div>
+
+        <div class="places-heading">Explore Top Tourist Places</div>
+
+        <div class="places">
+
+            <a href="Mandawa.html"><img src="Image/mandawa.jpg" alt="Mandawa"></a>
+
+            <div class="place-text">
+
+                <h2>Mandawa – The Open Air Art Gallery of Rajasthan</h2>
+
+                <p>Mandawa is one of the most famous tourist destinations in the Shekhawati region of Rajasthan. Founded
+                    in the 18th century, the town is widely known for its beautifully painted havelis decorated with
+                    colorful frescoes depicting mythological stories, royal lifestyles, and European influences. The
+                    magnificent Mandawa Fort, now a heritage hotel, stands as the main attraction of the town. Visitors
+                    can also explore famous havelis like Jhunjhunwala Haveli and Goenka Chhatri, which showcase the
+                    artistic and cultural richness of Rajasthan.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="places">
+
+            <a href="Nawalgarh.html"><img src="Image/nawal.jpg" alt="Nawalgarh"></a>
+
+            <div class="place-text">
+
+                <h2>Nawalgarh – The Golden City of Magnificent Havelis</h2>
+
+                <p>Nawalgarh, founded in 1737 by Thakur Nawal Singh, is one of the most important towns in the
+                    Shekhawati region. It is known for its large number of beautifully decorated havelis that display
+                    detailed fresco paintings. The Poddar Haveli Museum is a major attraction where visitors can learn
+                    about the history and art of the region. Other popular sites include Morarka Haveli, Aath Haveli
+                    Complex, and Roop Niwas Palace. The town’s stunning artwork and rich heritage make it a must-visit
+                    destination for tourists.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="places">
+
+            <a href="Fatehpur.html"><img src="Image/fateh.jpg" alt="Fatehpur"></a>
+
+            <div class="place-text">
+
+                <h2>Fatehpur – The Cultural Heart of Shekhawati</h2>
+
+                <p>Fatehpur, founded in the 16th century, is considered the cultural center of the Shekhawati region.
+                    The town is famous for its impressive havelis decorated with intricate fresco paintings that reflect
+                    Indian mythology, historical events, and local traditions. One of the most notable attractions is
+                    the Nadine Le Prince Haveli, a restored heritage building showcasing traditional Shekhawati art.
+                    Visitors can also explore Singhania Haveli, Dwarkadheesh Temple, and historic stepwells that
+                    highlight the architectural beauty of the town.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="places">
+
+            <a href="Jhunjhunu.html"><img src="Image/jhun.jpg" alt="Jhunjhunu"></a>
+
+            <div class="place-text">
+
+                <h2>Jhunjhunu – The Historic Land of Brave Warriors</h2>
+
+                <p>Jhunjhunu is an important historical town in the Shekhawati region and is known for its grand
+                    temples, forts, and painted havelis. The town reflects the rich cultural heritage and bravery of
+                    Rajasthan’s warrior traditions. One of the most famous landmarks is the Rani Sati Temple, a major
+                    pilgrimage site visited by thousands of devotees. Another unique structure is Khetri Mahal, also
+                    called the “Wind Palace,” known for its open design that allows natural air flow throughout the
+                    building.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="places">
+
+            <a href="Dundlod.html"><img src="Image/dundlod.jpg" alt="Dundlod"></a>
+
+            <div class="place-text">
+
+                <h2>Dundlod – The Royal Town of Forts and Fresco Havelis</h2>
+
+                <p>Dundlod is a charming heritage town located in the heart of the Shekhawati region. It is best known
+                    for the impressive Dundlod Fort, built in the 18th century, which has now been converted into a
+                    heritage hotel. The town is also famous for its beautifully painted havelis and artistic chhatris
+                    that showcase traditional Rajasthani architecture. Dundlod is also well known for Marwari horse
+                    breeding, and visitors can enjoy horse safaris that offer a unique way to explore the historic
+                    surroundings.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="places">
+
+            <a href="Mukundgarh.html"><img src="Image/mukundgarh.jpg" alt="Mukundgarh"></a>
+
+            <div class="place-text">
+
+                <h2>Mukundgarh – The Heritage Town of Artistic Havelis</h2>
+
+                <p>Mukundgarh is a peaceful and historic town famous for its stunning fresco-painted havelis and
+                    traditional Rajasthani architecture. Established in the 18th century, the town features beautiful
+                    mansions such as the Kanoria Haveli and Ganeriwala Haveli, known for their detailed wall paintings
+                    and artistic designs. The Mukundgarh Fort, now a heritage hotel, is another important attraction
+                    that reflects the royal history of the region. Visitors can enjoy exploring the narrow streets
+                    filled with colorful art and cultural heritage.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-content">
+
+                <h3>About Shekhawati Tourism</h3>
+
+                <p>
+                    Showcasing the vibrant culture, heritage, and tourist attractions of the Shekhawati region.
+                    Explore ancient havelis, frescoes, temples, and much more.
+                </p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Contact Us</h3>
+
+                <p>Phone: +91 12345 67890</p>
+
+                <p>Email: info@shekhawatitourism.com</p>
+
+                <p>Address: Shekhawati Region, Rajasthan, India</p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Touristplace.html">Tourist Places</a></li>
+                    <li><a href="spiritual.html">Spiritual Places</a></li>
+                    <li><a href="culture.html">Culture & Heritage</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="aboutcontact.html">About/Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Shekhawati Tourism. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

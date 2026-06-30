@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual places</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        body {
+            background: url(Image/bg3.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            /* backdrop-filter: blur(2px); */
+        }
+
+        .spiritual-place {
+            width: 90%;
+            /* border: 1px solid white; */
+            margin: 40px auto;
+        }
+
+        .top-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .top-container h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #f5d7a4;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .top-container p {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #f5f5f5;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .places-heading {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #f5d7a4;
+            margin: 40px 0;
+            text-transform: uppercase;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .spir-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .spir-cont {
+            width: 48%;
+            margin-bottom: 80px;
+            padding: 15px;
+            background: rgba(45, 25, 25, 0.6);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            /* display: flex; */
+            /* flex-direction: column; */
+        }
+
+
+        .spir-cont img {
+            width: 100%;
+            height: 280px;
+            margin-bottom: 30px;
+            /* border-radius: 8px; */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .spir-cont img:hover {
+            transform: scale(1.05);
+        }
+
+        .place-text {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .place-text h2 {
+            font-size: 22px;
+            color: #ffcc33;
+            margin-bottom: 12px;
+            line-height: 1.3;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .place-text p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            color: #f5f5f5;
+            text-align: justify;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .place-text b {
+            color: #f9e5a9;
+        }
+
+        .footer {
+            background: rgba(45, 25, 25, 0.7);
+            color: #f5d7a4;
+            /* font-family: 'Georgia', serif; */
+            padding: 40px 10px;
+            border-top: 2px solid #ffc107;
+            margin-top: 100px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-content h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #ffc107;
+        }
+
+        .footer-content p,
+        .footer-content li,
+        .footer-content a {
+            font-size: 15px;
+            line-height: 1.4;
+            color: #f1e9d2;
+            text-decoration: none;
+        }
+
+        .footer-content p {
+            max-width: 300px;
+            /* border: 1px solid white; */
+        }
+
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-content ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-content ul li a:hover {
+            color: #ffc107;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #f5d7a4;
+            padding-top: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #d6c18a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo"><img src="Image/Shekhawati Logo.png" alt=""></div>
+
+        <div class="nav-menu">
+
+            <ul>
+
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Touristplace.html">Tourist Places</a></li>
+                <li><a href="spiritual.html" class="active">Spiritual Places</a></li>
+                <li><a href="culture.html">Culture & Heritage</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="aboutcontact.html">About/Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="spiritual-place">
+
+        <div class="top-container">
+
+            <h1>Spiritual Places in Shekhawati</h1>
+
+
+            <p>Shekhawati, often known as the "Open-Air Art Gallery of Rajasthan," is dotted with significant spiritual
+                places that blend deep-rooted faith with stunning architecture. Key sites include the highly revered
+                Khatu Shyam Ji Temple, the historic Salasar Hanuman Ji, and the powerful Rani Sati Mandir. The region
+                features the ancient Lohargal Sun Temple, associated with the Mahabharata, and the scenic Harshanath
+                Temple, making it a crucial pilgrimage circuit in the Thar Desert.</p>
+
+        </div>
+
+        <div class="places-heading">Explore Famous Spiritual Sites</div>
+
+        <div class="spir-container">
+
+            <div class="spir-cont">
+
+                <a href="khatushyamtemple.html"><img src="Image/khatushyamtemple.png" alt="Khatu shyam ji Temple"></a>
+
+                <div class="place-text">
+
+                    <h2>Khatu Shyam Ji Temple – The Divine Shrine of Shekhawati</h2>
+
+                    <p>
+                        Khatu Shyam Ji Temple is one of the most famous pilgrimage sites in Rajasthan
+                        and a major spiritual center in the Shekhawati region.
+                    </p>
+
+                    <p><b>Location:</b> Khatu village, Sikar district, Rajasthan.</p>
+
+                    <p><b>Importance:</b> The temple is dedicated to Barbarik, the grandson of Bhima,
+                        who is worshipped as Khatu Shyam and believed to be an incarnation of Lord Krishna.</p>
+
+                    <p><b>Special Feature:</b> The temple attracts thousands of devotees every year,
+                        especially during the grand Phalgun Mela festival.</p>
+
+                </div>
+
+            </div>
+
+            <div class="spir-cont">
+
+                <a href="salasarbalajitemple.html"><img src="Image/salasartemple.png" alt="Salasar Balaji Temple"></a>
+
+                <div class="place-text">
+
+                    <h2>Salasar Balaji Temple – Lord Hanuman’s Sacred Abode</h2>
+
+                    <p>
+                        Salasar Balaji is one of the most respected temples dedicated to Lord Hanuman
+                        and an important pilgrimage destination in Rajasthan.
+                    </p>
+
+                    <p><b>Location:</b> Salasar town, Churu district, Rajasthan.</p>
+
+                    <p><b>Importance:</b> Devotees visit this sacred temple to seek blessings of
+                        Lord Hanuman for strength, protection, and fulfillment of wishes.</p>
+
+                    <p><b>Special Feature:</b> The idol of Hanuman here is unique because it has a
+                        beard and mustache, which is rarely seen in other temples.</p>
+
+                </div>
+
+            </div>
+
+            <div class="spir-cont">
+
+                <a href="ranisatitemple.html"><img src="Image/ranisati.jpg" alt="Rani Sati Temple"></a>
+
+                <div class="place-text">
+
+                    <h2>Rani Sati Mandir – Symbol of Devotion and Courage</h2>
+
+                    <p>
+                        Rani Sati Mandir is one of the most famous temples in Jhunjhunu and an
+                        important spiritual landmark of the Shekhawati region.
+                    </p>
+
+                    <p><b>Location:</b> Jhunjhunu city, Rajasthan.</p>
+
+                    <p><b>Importance:</b> The temple is dedicated to Rani Sati (Narayani Devi),
+                        who is remembered for her devotion, bravery, and sacrifice.</p>
+
+                    <p><b>Special Feature:</b> The temple complex is known for its beautiful marble
+                        architecture, paintings, and several smaller temples inside the campus.</p>
+
+                </div>
+
+            </div>
+
+            <div class="spir-cont">
+
+                <a href="Lohargal.html"><img src="Image/lohargal.png" alt="Lohargal"></a>
+
+                <div class="place-text">
+
+                    <h2>Lohargal – Ancient Pilgrimage Site of the Pandavas</h2>
+
+                    <p>
+                        Lohargal is an ancient and sacred pilgrimage site located in the Aravalli
+                        hills of the Shekhawati region.
+                    </p>
+
+                    <p><b>Location:</b> Near Udaipurwati in Jhunjhunu district, Rajasthan.</p>
+
+                    <p><b>Importance:</b> According to Hindu mythology, the weapons of the Pandavas
+                        melted here after the Mahabharata war, giving the place its name “Lohargal.”</p>
+
+                    <p><b>Special Feature:</b> The sacred Surya Kund and the 24-kos parikrama route
+                        make Lohargal an important religious destination for devotees.</p>
+
+                </div>
+
+            </div>
+
+            <div class="spir-cont">
+
+                <a href="JeenMatatemple.html"><img src="Image/jeenmata.png" alt="Jeen Mata Temple"></a>
+
+                <div class="place-text">
+
+                    <h2>Jeen Mata Mandir – The Historic Shakti Peeth of Rajasthan</h2>
+
+                    <p>
+                        Jeen Mata Mandir is a historic temple dedicated to Goddess Durga and
+                        one of the most visited spiritual sites in the Shekhawati region.
+                    </p>
+
+                    <p><b>Location:</b> Near Raiwasa village in Sikar district, Rajasthan.</p>
+
+                    <p><b>Importance:</b> The temple is believed to be more than 1000 years old
+                        and is dedicated to Jeen Mata, an incarnation of Goddess Durga.</p>
+
+                    <p><b>Special Feature:</b> The temple is surrounded by scenic Aravalli hills
+                        and attracts thousands of devotees during the Navratri festival.</p>
+
+                </div>
+
+            </div>
+
+            <div class="spir-cont">
+
+                <a href="HarshanathTemple.html"><img src="Image/harshnathtemple.png" alt="Harshanath Temple"></a>
+
+                <div class="place-text">
+
+                    <h2>Harshanath Temple – The Hilltop Shiva Shrine of Shekhawati</h2>
+
+                    <p>
+                        Harshanath Temple is an ancient Shiva temple and an important historical
+                        and spiritual attraction in the Shekhawati region.
+                    </p>
+
+                    <p><b>Location:</b> About 14 km from Sikar city in the Aravalli Hills, Rajasthan.</p>
+
+                    <p><b>Importance:</b> Built in the 10th century, the temple reflects the rich
+                        history and architectural heritage of Rajasthan.</p>
+
+                    <p><b>Special Feature:</b> The temple is known for its beautiful stone carvings,
+                        Nagara-style architecture, and breathtaking hilltop views.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-content">
+
+                <h3>About Shekhawati Tourism</h3>
+
+                <p>
+                    Showcasing the vibrant culture, heritage, and tourist attractions of the Shekhawati region.
+                    Explore ancient havelis, frescoes, temples, and much more.
+                </p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Contact Us</h3>
+
+                <p>Phone: +91 12345 67890</p>
+
+                <p>Email: info@shekhawatitourism.com</p>
+
+                <p>Address: Shekhawati Region, Rajasthan, India</p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Touristplace.html">Tourist Places</a></li>
+                    <li><a href="spiritual.html">Spiritual Places</a></li>
+                    <li><a href="culture.html">Culture & Heritage</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="aboutcontact.html">About/Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Shekhawati Tourism. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

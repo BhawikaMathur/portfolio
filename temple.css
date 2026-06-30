@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.temple-page {
+    width: 85%;
+    margin:auto;
+    color: #fff7cb;
+}
+
+.temple-title {
+    text-align: center;
+    color: #f5d7a4;
+    font-size: 25px;
+    margin: 50px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 4px 4px  rgba(0, 0, 0, 0.6);
+}
+
+.temple-img-para {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.temple-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* border: 1px solid white; */
+}
+
+.temple-image {
+    margin: 10px 0;
+    margin-left: 40px;
+    width: 500px;
+    /* border: 1px solid white; */
+}
+
+.temple-image img {
+    width: 100%;
+    /* max-width: 450px; */
+    height: 320px;
+    /* border-radius: 10px; */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.temple-content {
+    /* border: 1px solid white; */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(5px);
+    
+}
+
+.temple-content h2 {
+    background: rgba(45, 25, 25, 0.5);
+    font-family: 'Playfair Display', serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ffcc70;
+    border-left: 5px solid #ffc107;
+    padding-left: 10px;
+}
+
+.temple-content p {
+    color: #f5f5f5;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+.temple-list {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style: circle;
+}
+
+.temple-list li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    /* background: rgba(45, 25, 25, 0.9); */
+    margin: 50px 10px 0;
+    border-top: 1px solid #f1d6a6;
+    color: #ead497;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.back-btn {
+    background: rgba(45, 25, 25, 0.8);
+    color: #ffcc70;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.back-btn:hover {
+    background: #ffcc70;
+    color: #2d1919;
+}

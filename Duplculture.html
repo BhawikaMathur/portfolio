@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>culture and heritage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        body {
+            background: url(Image/bg3.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            /* backdrop-filter: blur(2px); */
+        }
+
+        .culture-page {
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .top-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .top-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            color: #f5d7a4;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .top-container p {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #f5f5f5;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .places-heading {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #f5d7a4;
+            margin: 70px 0 30px;
+            text-transform: uppercase;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .culture-content {
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            background: rgba(45, 25, 25, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 50px;
+            transition: 1s;
+            /* text-align: center; */
+        }
+
+        .culture-content:nth-child(odd){
+            flex-direction: row-reverse;
+        }
+
+        .culture-content:hover{
+            transform: scale(1.1);
+        }
+
+        .culture-content img {
+
+            /* width: 500px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); */
+            width: 100%;
+            max-width: 500px;
+            height: 350px;
+            border-radius: 10px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+            margin: 15px;
+        }
+
+        .culture-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: #ffcc33;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .culture-content p {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+            color: #f5f5f5;
+        }
+
+        .culture-content b {
+            color: #f9e5a9;
+        }
+
+        
+        .footer {
+            background: rgba(45, 25, 25, 0.7);
+            color: #f5d7a4;
+            /* font-family: 'Georgia', serif; */
+            padding: 40px 10px;
+            border-top: 2px solid #ffc107;
+            margin-top: 100px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-content h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #ffc107;
+        }
+
+        .footer-content p,
+        .footer-content li,
+        .footer-content a {
+            font-size: 15px;
+            line-height: 1.4;
+            color: #f1e9d2;
+            text-decoration: none;
+        }
+
+        .footer-content p {
+            max-width: 300px;
+            /* border: 1px solid white; */
+        }
+
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-content ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-content ul li a:hover {
+            color: #ffc107;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #f5d7a4;
+            padding-top: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #d6c18a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">Shekhawati Tourism</div>
+
+        <div class="nav-menu">
+
+            <ul>
+
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Touristplace.html">Tourist Places</a></li>
+                <li><a href="spiritual.html">Spiritual Places</a></li>
+                <li><a href="culture.html" class="active">Culture & Heritage</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="aboutcontact.html">About/Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="culture-page">
+
+        <div class="top-container">
+
+            <h1>Culture & Heritage of Shekhawati</h1>
+
+            <p>Shekhawati, located in the northern region of Rajasthan, is famous for its rich artistic heritage,
+                magnificent havelis, vibrant festivals, and colorful traditions. Often referred to as the
+                "Open Art Gallery of Rajasthan," the region is known for its beautiful fresco paintings that
+                decorate the walls of grand mansions. The culture of Shekhawati reflects centuries of Rajput
+                history, merchant prosperity, and traditional rural lifestyle that continues to attract
+                tourists from around the world.
+            </p>
+
+        </div>
+
+        <!-- <div class="places-heading">Havelis & Forts</div> -->
+
+        <div class="culture-content">
+
+            <img src="Image/mandawahavelis.png" alt="Mandawa Havelis">
+
+            <div>
+
+                <h2>Mandawa Havelis</h2>
+
+                <p><b>Location:</b> Mandawa, Jhunjhunu district, Rajasthan.</p>
+
+                <p><b>Importance:</b> Mandawa is famous for its beautifully painted havelis that showcase
+                    intricate fresco art depicting mythology, royal life, and historic stories.</p>
+
+                <p><b>Special Feature:</b> Famous havelis include Jhunjhunwala Haveli and Goenka Haveli,
+                    known for their detailed paintings and architectural beauty.</p>
+
+            </div>
+
+        </div>
+
+        <div class="culture-content">
+
+            <img src="Image/nawalhavelis.jpg" alt="Nawalgarh Havelis">
+
+            <div>
+
+                <h2>Nawalgarh Havelis</h2>
+
+                <p><b>Location:</b> Nawalgarh, Jhunjhunu district, Rajasthan.</p>
+
+                <p><b>Importance:</b> Nawalgarh is often called the "Golden City of Shekhawati" because
+                    of its grand mansions decorated with colorful fresco paintings.</p>
+
+                <p><b>Special Feature:</b> The Poddar Haveli Museum preserves traditional art and gives
+                    visitors a glimpse into the history and lifestyle of the region.</p>
+
+            </div>
+
+        </div>
+
+        <div class="culture-content">
+
+            <img src="Image/dundlodforts.jpg" alt="Dundlod Fort">
+
+            <div>
+
+                <h2>Dundlod Fort</h2>
+
+                <p><b>Location:</b> Dundlod, Jhunjhunu district, Rajasthan.</p>
+
+                <p><b>Importance:</b> A historic Rajput fort that represents the royal heritage of
+                    the Shekhawati region.</p>
+
+                <p><b>Special Feature:</b> The fort has been converted into a heritage hotel and
+                    offers Marwari horse safaris for visitors.</p>
+
+            </div>
+
+        </div>
+
+        <!-- <h2 class="places-heading">Fresco Art</h2> -->
+        
+        <div class="culture-content">
+            
+            <img src="Image/frescopainting.png" alt="Fresco Art">
+
+            <div>
+
+                <h2>Shekhawati Fresco Paintings</h2>
+
+                <p><b>Location:</b> Mandawa, Nawalgarh, Fatehpur and nearby towns.</p>
+
+                <p><b>Importance:</b> Shekhawati is known as the "Open Art Gallery of Rajasthan"
+                    because thousands of fresco paintings decorate its buildings.</p>
+
+                <p><b>Special Feature:</b> These paintings show scenes from mythology, royal life,
+                    British influence, and everyday village life.</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- <h2 class="places-heading">Festivals</h2> -->
+
+        <div class="culture-content">
+
+            <img src="Image/festivel.png" alt="local festivels">
+
+            <div>
+
+                <h2>Local Festivals</h2>
+
+                <p><b>Location:</b> Throughout Shekhawati region.</p>
+
+                <p><b>Importance:</b> Festivals like Teej, Gangaur, and Holi are celebrated
+                    with great enthusiasm.</p>
+
+                <p><b>Special Feature:</b> Folk dances, music performances, colorful fairs,
+                    and traditional rituals highlight the vibrant culture of Rajasthan.</p>
+
+            </div>
+
+        </div>
+
+        <!-- <h2 class="places-heading">Folk Art</h2> -->
+
+        <div class="culture-content">
+
+            <img src="Image/handicraft.png" alt="Traditional Handicraft">
+
+            <div>
+
+                <h2>Traditional Handicrafts</h2>
+
+                <p><b>Location:</b> Artisan villages across Shekhawati.</p>
+
+                <p><b>Importance:</b> The region is famous for pottery, wood carving,
+                    miniature paintings, and textile crafts.</p>
+
+                <p><b>Special Feature:</b> Skilled artisans continue to practice
+                    traditional craftsmanship passed down through generations.</p>
+
+            </div>
+
+        </div>
+
+        <!-- <h2 class="places-heading">Museums & Cultural Centers</h2> -->
+
+        <div class="culture-content">
+
+            <img src="Image/museum.png" alt="Poddar Haveli Museum">
+
+            <div>
+
+                <h2>Poddar Haveli Museum</h2>
+
+                <p><b>Location:</b> Nawalgarh, Jhunjhunu district, Rajasthan.</p>
+
+                <p><b>Importance:</b> Museum preserves the history and art of Shekhawati.</p>
+
+                <p><b>Special Feature:</b> Showcases frescoes, paintings, and artifacts from historic havelis.</p>
+
+            </div>
+
+        </div>
+
+        <!-- <h2 class="places-heading">Traditional Music & Dance</h2> -->
+
+        <div class="culture-content">
+
+            <img src="Image/folkdance.png" alt="Folk Music & Dance">
+
+            <div>
+
+                <h2>Folk Music & Dance</h2>
+
+                <p><b>Location:</b> Across Shekhawati and Rajasthan.</p>
+
+                <p><b>Importance:</b> Folk traditions such as Ghoomar, Kalbeliya,
+                    and Bhavai play an important role in cultural celebrations.</p>
+
+                <p><b>Special Feature:</b> Performances include traditional
+                    instruments, colorful costumes, and storytelling through dance.</p>
+
+            </div>
+
+        </div>
+
+        <!-- <h2 class="places-heading">Traditional Cuisine</h2> -->
+        
+        <div class="culture-content">
+            
+
+            <img src="Image/rajfood.jpg" alt="Rajasthani Food">
+
+            <div>
+
+                <h2>Shekhawati Cuisine</h2>
+
+                <p><b>Location:</b> Popular throughout Rajasthan.</p>
+
+                <p><b>Importance:</b> Local cuisine reflects desert culture and
+                    uses ingredients that can survive harsh climatic conditions.</p>
+
+                <p><b>Special Feature:</b> Famous dishes include Dal Baati Churma,
+                    Gatte ki Sabzi, Bajre ki Roti, and Ker Sangri.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-content">
+
+                <h3>About Shekhawati Tourism</h3>
+
+                <p>
+                    Showcasing the vibrant culture, heritage, and tourist attractions of the Shekhawati region.
+                    Explore ancient havelis, frescoes, temples, and much more.
+                </p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Contact Us</h3>
+
+                <p>Phone: +91 12345 67890</p>
+
+                <p>Email: info@shekhawatitourism.com</p>
+
+                <p>Address: Shekhawati Region, Rajasthan, India</p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Touristplace.html">Tourist Places</a></li>
+                    <li><a href="spiritual.html">Spiritual Places</a></li>
+                    <li><a href="culture.html">Culture & Heritage</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="aboutcontact.html">About/Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Shekhawati Tourism. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

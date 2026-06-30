@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        
+        body {
+            background: url(Image/bg3.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            /* backdrop-filter: blur(2px); */
+        }
+
+        .gallery-page {
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .top-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .top-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 45px;
+            color: #f5d7a4;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .top-container p {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            color: #f5f5f5;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .gallery-heading {
+            text-align: center;
+            font-size: 32px;
+            margin: 30px 0;
+            color: #f5dd93;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .gallery-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .galleryImg {
+            width: 300px;
+            margin: 50px 20px;
+            background: rgba(45, 25, 25, 0.75);
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+            transition: 0.4s;
+        }
+
+        .galleryImg:hover {
+            transform: scale(1.1);
+        }
+
+        .galleryImg img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .galleryImg h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            color: #ffc107;
+            padding: 10px 15px 5px;
+        }
+
+        .galleryImg p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 0 15px 15px;
+            color: #f5f5f5;
+        }
+
+        .footer {
+            background: rgba(45, 25, 25, 0.7);
+            color: #f5d7a4;
+            /* font-family: 'Georgia', serif; */
+            padding: 40px 10px;
+            border-top: 2px solid #ffc107;
+            margin-top: 100px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-content h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: #ffc107;
+        }
+
+        .footer-content p,
+        .footer-content li,
+        .footer-content a {
+            font-size: 15px;
+            line-height: 1.4;
+            color: #f1e9d2;
+            text-decoration: none;
+        }
+
+        .footer-content p {
+            max-width: 300px;
+            /* border: 1px solid white; */
+        }
+
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-content ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-content ul li a:hover {
+            color: #ffc107;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #f5d7a4;
+            padding-top: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #d6c18a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo"><img src="Image/Shekhawati Logo.png" alt=""></div>
+
+        <div class="nav-menu">
+
+            <ul>
+
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Touristplace.html">Tourist Places</a></li>
+                <li><a href="spiritual.html">Spiritual Places</a></li>
+                <li><a href="culture.html">Culture & Heritage</a></li>
+                <li><a href="Gallery.html" class="active">Gallery</a></li>
+                <li><a href="aboutcontact.html">About/Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="gallery-page">
+
+        <div class="top-container">
+
+            <h1>Shekhawati: Heritage & Spiritual Gallery</h1>
+
+            <p>Discover the timeless charm of Shekhawati through our gallery, where heritage, art, and spirituality come
+                together. From beautifully painted havelis and historic forts to sacred temples and vibrant cultural
+                moments, these images capture the true spirit of this remarkable region of Rajasthan.</p>
+
+        </div>
+
+        <h2 class="gallery-heading">Explore Shekhawati Through Images</h2>
+
+        <div class="gallery-content">
+
+            <div class="galleryImg">
+
+                <img src="Image/mandawapainting.jpg" alt="Mandawa Haveli fresco paintings">
+
+                <h4>Mandawa Haveli fresco paintings</h4>
+
+                <p>Intricate fresco paintings that decorate the walls of Mandawa havelis, showcasing the artistic
+                    brilliance
+                    of Shekhawati merchants.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/podarhaveli.jpg" alt="Podar Haveli heritage museum">
+
+                <h4>Podar Haveli heritage museum</h4>
+
+                <p>A beautifully restored haveli museum displaying traditional Shekhawati art, architecture, and
+                    cultural
+                    heritage.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/shekhawatihavelipainting.jpg" alt="Shekhawati haveli wall murals">
+
+                <h4>Shekhawati haveli wall murals</h4>
+
+                <p>Colorful murals depicting mythology, royal life, and historical stories that make Shekhawati famous
+                    as an
+                    open-air art gallery.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/murarkahaveliarchi.jpg" alt="Morarka Haveli architecture">
+
+                <h4>Morarka Haveli architecture</h4>
+
+                <p>A magnificent haveli known for its grand courtyards, carved balconies, and detailed fresco artwork.
+                </p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/khatushyamjitemple.jpg" alt="Khatu Shyam Ji Temple">
+
+                <h4>Khatu Shyam Ji Temple</h4>
+
+                <p>A sacred pilgrimage site dedicated to Lord Shyam, attracting thousands of devotees from across India.
+                </p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/salasarbalajitemple.jpg" alt="Salasar Balaji Temple">
+
+                <h4>Salasar Balaji Temple</h4>
+
+                <p>One of Rajasthan’s most revered Hanuman temples, known for its spiritual atmosphere and devotion.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/jeenmatatemple.jpg" alt="Jeen Mata Temple">
+
+                <h4>Jeen Mata Temple</h4>
+
+                <p>An ancient temple nestled in the Aravalli hills, dedicated to Goddess Jeen Mata.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/ranisati.jpg" alt="Rani Sati Temple">
+
+                <h4>Rani Sati Temple</h4>
+
+                <p>A famous temple in Jhunjhunu known for its marble architecture and spiritual significance.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/mandawacourtyard.jpg" alt="Mandawa Fort courtyard">
+
+                <h4>Mandawa Fort courtyard</h4>
+
+                <p>The royal courtyard of Mandawa Fort reflecting the grandeur and lifestyle of Rajput rulers.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/dundlodhaveli.jpg" alt="Dundlod Fort heritage hotel">
+
+                <h4>Dundlod Fort heritage hotel</h4>
+
+                <p>A historic fort transformed into a heritage hotel offering a glimpse of royal Rajasthani living.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/murarkahaveliarchi.jpg" alt="Mukundgarh Fort palace">
+
+                <h4>Mukundgarh Fort palace</h4>
+
+                <p>A majestic palace showcasing Rajput architecture and the royal heritage of Mukundgarh.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/mandawainterior.jpg" alt="Mandawa Fort interior">
+
+                <h4>Mandawa Fort interior</h4>
+
+                <p>The richly decorated interiors of Mandawa Fort filled with antique furniture and traditional artwork.
+                </p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/rajfolkdance.jpg" alt="Rajasthani folk dance">
+
+                <h4>Rajasthani folk dance</h4>
+
+                <p>Energetic traditional dance performances reflecting the vibrant culture of Rajasthan.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/culturefest.jpg" alt="Shekhawati cultural festival">
+
+                <h4>Shekhawati cultural festival</h4>
+
+                <p>A colorful festival celebrating the region’s folk music, dance, crafts, and heritage.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/localbazaar.jpg" alt="Local bazaar scene">
+
+                <h4>Local bazaar scene</h4>
+
+                <p>Busy local markets where visitors can explore handicrafts, textiles, and traditional Rajasthani
+                    goods.
+                </p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/rajattire.jpg" alt="Traditional Rajasthani attire">
+
+                <h4>Traditional Rajasthani attire</h4>
+
+                <p>Bright and beautifully embroidered garments representing the unique identity of Rajasthan.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/mandawatown.jpg" alt="Mandawa town view">
+
+                <h4>Mandawa town view</h4>
+
+                <p>A scenic view of Mandawa town known for its historic havelis and charming streets.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/nawalgarhview.jpg" alt="Nawalgarh heritage streets">
+
+                <h4>Nawalgarh heritage streets</h4>
+
+                <p>Streets lined with beautifully painted havelis that reflect the rich heritage of Nawalgarh.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/talchhapar.png" alt="Tal Chhapar Sanctuary">
+
+                <h4>Tal Chhapar Sanctuary</h4>
+
+                <p>Located in the Shekhawati region of Rajasthan, Tal Chhapar Sanctuary is famous for its open
+                    grasslands and large population of blackbucks.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/desert.jpg" alt="Shekhawati village landscape">
+
+                <h4>Shekhawati village landscape</h4>
+
+                <p>A peaceful rural landscape showcasing the desert beauty and traditional lifestyle of Shekhawati.</p>
+
+            </div>
+
+            <div class="galleryImg">
+
+                <img src="Image/rajdessert.jpg" alt="Shekhawati aerial town view">
+
+                <h4>Shekhawati aerial town view</h4>
+
+                <p>An aerial glimpse of Shekhawati’s towns surrounded by desert terrain and historic architecture.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-content">
+
+                <h3>About Shekhawati Tourism</h3>
+
+                <p>
+                    Showcasing the vibrant culture, heritage, and tourist attractions of the Shekhawati region.
+                    Explore ancient havelis, frescoes, temples, and much more.
+                </p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Contact Us</h3>
+
+                <p>Phone: +91 12345 67890</p>
+
+                <p>Email: info@shekhawatitourism.com</p>
+
+                <p>Address: Shekhawati Region, Rajasthan, India</p>
+
+            </div>
+
+            <div class="footer-content">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Touristplace.html">Tourist Places</a></li>
+                    <li><a href="spiritual.html">Spiritual Places</a></li>
+                    <li><a href="culture.html">Culture & Heritage</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="aboutcontact.html">About/Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Shekhawati Tourism. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
