@@ -25,7 +25,7 @@
             line-height: 1.6;
         }
 
-     
+
 
         header {
             background: linear-gradient(135deg, #1e3c72, #2a5298);
@@ -44,6 +44,14 @@
             margin-bottom: 25px;
         }
 
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
         nav a {
             color: white;
             text-decoration: none;
@@ -56,7 +64,7 @@
             color: #ffd369;
         }
 
-        
+
 
         section {
             padding: 70px 10%;
@@ -69,7 +77,7 @@
             color: #1e3c72;
         }
 
-    
+
 
         .about-content {
             max-width: 800px;
@@ -78,7 +86,7 @@
             font-size: 18px;
         }
 
-        
+
 
         .skills {
             display: flex;
@@ -102,7 +110,7 @@
             color: white;
         }
 
-        
+
 
         .projects-container {
             display: flex;
@@ -114,6 +122,7 @@
         .project-card {
             background: white;
             width: 320px;
+            max-width: 100%;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -150,7 +159,7 @@
             background: #16325c;
         }
 
-     
+
 
         .contact {
             text-align: center;
@@ -180,7 +189,7 @@
             background: #16325c;
         }
 
-        
+
 
         footer {
             background: #1e3c72;
@@ -190,20 +199,70 @@
             margin-top: 40px;
         }
 
-    
 
-        @media(max-width:600px) {
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 50px 20px;
+            }
 
             header h1 {
-                font-size: 36px;
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
             }
 
             .section-title {
-                font-size: 30px;
+                font-size: 28px;
             }
 
             section {
-                padding: 60px 5%;
+                padding: 50px 20px;
+            }
+
+            .about-content {
+                font-size: 16px;
+            }
+
+            .skills {
+                gap: 10px;
+            }
+
+            .skill {
+                padding: 10px 18px;
+                font-size: 14px;
+            }
+
+            .projects-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project-card {
+                width: 100%;
+            }
+
+            .project-content {
+                padding: 20px;
+            }
+
+            .contact p {
+                font-size: 16px;
+            }
+
+            button {
+                width: 100%;
+                max-width: 250px;
             }
         }
     </style>
@@ -211,7 +270,7 @@
 
 <body>
 
-    
+
     <header>
 
         <h1>Bhawika Mathur</h1>
@@ -246,7 +305,7 @@
 
     </section>
 
-    
+
 
     <section id="skills">
 
@@ -265,7 +324,7 @@
 
     </section>
 
-  
+
 
     <section id="projects">
 
@@ -285,7 +344,7 @@
                         Shekhawati region with responsive design.
                     </p>
 
-                    <a href="Main.html" target="_blank">
+                    <a href="project1/Main.html" target="_blank">
                         View Project
                     </a>
 
@@ -297,7 +356,7 @@
 
     </section>
 
-   
+
 
     <section id="contact">
 
@@ -319,7 +378,7 @@
 
     </section>
 
-   
+
 
     <footer>
 
