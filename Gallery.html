@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
     <link rel="stylesheet" href="styling.css">
     <style>
-        
         body {
             background: url(bg3.jpg);
             background-repeat: no-repeat;
@@ -152,6 +151,119 @@
             font-size: 14px;
             color: #d6c18a;
         }
+
+        @media (max-width: 768px) {
+
+            body {
+                background-attachment: scroll;
+                background-position: center;
+                background-size: cover;
+            }
+
+
+            .gallery-page {
+                width: 90%;
+                padding: 30px 0;
+            }
+
+
+            .top-container {
+                margin-bottom: 40px;
+            }
+
+
+            .top-container h1 {
+                font-size: 30px;
+                line-height: 1.4;
+            }
+
+
+            .top-container p {
+                font-size: 15px;
+                line-height: 1.7;
+                text-align: justify;
+            }
+
+
+            .gallery-heading {
+                font-size: 25px;
+                line-height: 1.4;
+                margin: 30px 0;
+            }
+
+
+            /* Gallery Cards */
+
+            .gallery-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+
+            .galleryImg {
+                width: 100%;
+                max-width: 350px;
+                margin: 25px 0;
+            }
+
+
+            .galleryImg:hover {
+                transform: none;
+            }
+
+
+            .galleryImg img {
+                width: 100%;
+                height: auto;
+                max-height: 250px;
+                object-fit: cover;
+            }
+
+
+            .galleryImg h4 {
+                font-size: 19px;
+            }
+
+
+            .galleryImg p {
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+
+            /* Footer */
+
+            .footer {
+                margin-top: 50px;
+                padding: 30px 20px;
+            }
+
+
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+            }
+
+
+            .footer-content {
+                width: 100%;
+                max-width: 350px;
+            }
+
+
+            .footer-content p {
+                max-width: 100%;
+            }
+
+
+            .footer-bottom {
+                margin-top: 25px;
+                font-size: 13px;
+            }
+
+        }
     </style>
 </head>
 
@@ -159,7 +271,7 @@
 
     <nav class="navbar">
 
-        <div class="logo"><img src="Image/Shekhawati Logo.png" alt=""></div>
+        <div class="logo"><img src="Shekhawati Logo.png" alt=""></div>
 
         <div class="nav-menu">
 
