@@ -23,9 +23,10 @@
      /*This will completely invert the colors of the selected element, making light colors dark and dark colors light. */
 
  }
- .logo img{
-    width: auto;
-    height: 75px;
+
+ .logo img {
+     width: auto;
+     height: 75px;
  }
 
  .nav-menu ul {
@@ -39,8 +40,9 @@
      margin-left: 25px;
      transition: 0.3s;
  }
+
  .nav-menu ul li:hover {
-    transform: scale(1.1);
+     transform: scale(1.1);
  }
 
  .nav-menu ul li a {
@@ -64,4 +66,47 @@
  .nav-menu ul li a.active {
      color: #ffc107;
      border-bottom: 2px solid #ffc107;
+ }
+
+ @media (max-width: 768px) {
+
+     .navbar {
+         flex-direction: column;
+         padding: 15px;
+         gap: 15px;
+     }
+
+     .logo img {
+         height: 60px;
+     }
+
+     .nav-menu {
+         width: 100%;
+     }
+
+     .nav-menu ul {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 10px;
+     }
+
+     .nav-menu ul li {
+         margin: 0;
+     }
+
+     .nav-menu ul li a {
+         display: block;
+         font-size: 15px;
+         padding: 8px 10px;
+         border-bottom: none;
+     }
+
+     .nav-menu ul li a:hover,
+     .nav-menu ul li a.active {
+         border-bottom: none;
+         background: rgba(255, 193, 7, 0.2);
+         border-radius: 5px;
+     }
+
  }
