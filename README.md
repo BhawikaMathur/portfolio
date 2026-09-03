@@ -3,7 +3,6 @@
 A fully responsive tourism website built as an academic project, designed to showcase destinations with a clean, user-friendly interface across all screen sizes.
 
 🔗 Live Demo
-
 View Live Site
 
 ✨ Features
@@ -12,12 +11,15 @@ Multiple destination pages (Dundlod, Mandawa, Nawalgarh, Mukundgarh, Fatehpur, J
 Dedicated pages for culture, temples, havelis, and local handicrafts
 Clean, structured page layout with an engaging visual interface
 Interactive JavaScript elements for improved navigation and user experience
+
+
 🛠️ Tech Stack
 HTML5 — semantic page structure across multiple linked pages
 CSS3 — responsive styling and layout
 JavaScript — interactive navigation and UI elements
-🚀 Getting Started
 
+
+🚀 Getting Started
 Clone the repository and open Main.html in your browser — this is the homepage of the tourism site:
 
 bash
